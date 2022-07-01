@@ -3,13 +3,14 @@
   "version": "0.0.1",
   "description": "whatsapp bot with multi device.",
   "main": "haruka.js",
+  "engines": {
+   "node": "16.x"
+  },
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/netlify-lambda server src",
-    "build": "./node_modules/.bin/netlify-lambda build src",
     "start": "node haruka.js"
   },
   "author": "fadlyid",
